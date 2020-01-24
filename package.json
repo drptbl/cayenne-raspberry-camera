@@ -5,7 +5,6 @@
     "version": "1.0.0",
     "description": "Takes a photo using Raspberry Pi camera and send it with e-mail and through Slack image upload. Integrated with Cayenne dashboard.",
     "main": "index.js",
-    "private": true,
     "scripts": {
       "start": "nodemon index.js"
     },
