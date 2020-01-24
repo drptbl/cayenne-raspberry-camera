@@ -1,0 +1,27 @@
+{
+    "name": "cayenne-raspberry-camera",
+    "author": "Jakub Mucha <jakub.mucha@icloud.com>",
+    "license": "MIT",
+    "version": "1.0.0",
+    "description": "Takes a photo using Raspberry Pi camera and send it with e-mail and through Slack image upload. Integrated with Cayenne dashboard.",
+    "main": "index.js",
+    "private": true,
+    "scripts": {
+      "start": "nodemon index.js"
+    },
+    "dependencies": {
+      "cayennejs": "0.0.4",
+      "moment": "2.24.0",
+      "node-raspistill": "1.0.0",
+      "node-slack-upload": "2.0.0",
+      "nodemailer": "6.4.2"
+    },
+    "devDependencies": {
+      "eslint": "6.8.0",
+      "eslint-config-prettier": "6.9.0",
+      "eslint-plugin-prettier": "3.1.2",
+      "nodemon": "2.0.2",
+      "prettier": "1.19.1"
+    }
+}
+  
